@@ -1,6 +1,6 @@
 {
   "name": "get-display-name",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "get display name",
   "license": "MIT",
   "repository": "github:callstack-io/get-display-name",
@@ -8,7 +8,7 @@
     "name": "Mike Grabowski",
     "email": "grabbou@gmail.com"
   },
-	"files": [
+  "files": [
     "lib"
   ],
   "engines": {
@@ -18,14 +18,14 @@
     "precommit": "lint-staged",
     "flow": "flow",
     "lint": "eslint src",
-		"build": "babel src --out-dir lib",
-		"release": "npm run build && npm-release",
+    "build": "babel src --out-dir lib",
+    "release": "npm run build && npm-release",
     "jest": "jest src",
     "test": "npm run flow && npm run lint && npm run jest"
   },
   "dependencies": {},
   "devDependencies": {
-		"babel-cli": "^6.24.0",
+    "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
